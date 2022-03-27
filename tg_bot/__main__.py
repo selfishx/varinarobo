@@ -19,13 +19,12 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
-hii {}, i am a ego robo{}! [owner](tg://user?id={2101978756}) a simple group manager bot.
+hii {}, i am a ego robo{}!  a simple group manager bot.
 
 made in python3 bot python-telegram-bot . if you want to make your own . them click here [ github ](https://github.com/selfishx/egorobo)ം make your own.
 
 i am a simple group management bot which taken many feature.
 
-Ego robo is made by [classy] (@classy_network).
 
 this bot is made by my master [master] (@s_e_l_f_i_s_h_x_7).
 
