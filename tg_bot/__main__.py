@@ -17,7 +17,7 @@ from tg_bot.modules import ALL_MODULES
 from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
-PM_START_TEXT = """ HEY THERE MY NAME IS VARENA ROBO. I AM A GROUP MANAGEMENT BOT PLZZ ADD ME IN YOUR GROUP
+PM_START_TEXT = """ HEY THERE MY NAME Is Anonymous . I AM A GROUP MANAGEMENT BOT PLZZ ADD ME IN YOUR GROUP
 
 ───────────────────
 × *I'ᴍ  Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
@@ -48,10 +48,10 @@ And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for [my creator](t.me/classy_network) to get me to where I am now, and every donation helps \
+It took lots of work for [my creator](t.me/project_anonymous) to get me to where I am now, and every donation helps \
 motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
 (see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [PayPal](@classy_network),"""
+There are two ways of paying him; [PayPal](@project_anonymous),"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -149,11 +149,11 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="🎉 Add me to your group", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="🤖 Make Own Admin Bot", url="https://t.me/classy_network")],
-                     [InlineKeyboardButton(text="👥 Support Group", url="https://t.me/Infinity_bots_support"), InlineKeyboardButton(text="🔔 Update Channel", url="https://t.me/INFINITY_BOTZ")],
-                     [InlineKeyboardButton(text="🎬support channel", url="https://t.me/INFINITY_BOTZ"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
+                     [InlineKeyboardButton(text="👥 Support Group", url="https://t.me/anonymous_support_group"), InlineKeyboardButton(text="🔔 Update Channel", url="https://t.me/INFINITY_BOTZ")],
+                     [InlineKeyboardButton(text="🎬support channel", url="https://t.me/project_anonymous"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
     else:
-        update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
+        update.effective_message.reply_text("Alive...")
 
 
 # for test purposes
